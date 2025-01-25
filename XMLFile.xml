@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Query>
+	<AddInformation>
+		<![CDATA[
+		INSERT INTO userrequestdb.Users(user_Name,Email,Password) VALUES(@UserName,@Email,@Password);
+		]]>
+	</AddInformation>
+</Query>
